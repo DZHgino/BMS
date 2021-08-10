@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="zh_CN">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+	<script src="https://cdn.bootcss.com/jquery/2.0.1/jquery.js"></script>	
+	<script src="https://cdn.bootcss.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+	<script type='text/javascript' src="https://cdn.bootcss.com/sweetalert/2.1.2/sweetalert.min.js"></script>
+
+	<title>电影详情页</title>
+</head>
+<body>
+	<!-- 导航 -->
+	<nav class="navbar navbar-default" role="navigation">
+		
+			<div class="container-fluid">
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">我爱电影网</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="#">我爱电影网</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="#">首页</a>
+						</li>
+						<li>
+							<a href="#">热门</a>
+						</li>
+						<li class="dropdown">
+							<a href="#" class="dropdown-toggle" data-toggle="dropdown">分类<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="./list.html">动作</a>
+								</li>
+								<li>
+									<a href="./list.html">爱情</a>
+								</li>
+								<li>
+									<a href="./list.html">剧情</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="./list.html">科幻</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="./list.html">动漫</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<form class="navbar-form navbar-left" role="search">
+						<div class="form-group">
+							<input type="text" class="form-control" />
+						</div> <button type="submit" class="btn btn-default">搜索</button>
+					</form>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="./register.html">注册</a>
+						</li>
+						
+						<li>
+							<a href="./login.html">登录</a>
+						</li>
+						
+					</ul>
+				</div>
+			</div>
+			
+	</nav>
+	<!-- 巨幕 -->
+	<div class="container">
+			<div class="row clearfix">
+					<div class="col-md-12 column">
+						<div class="jumbotron">
+							<h1>
+								我爱电影网
+							</h1>
+							<p>
+								我爱电影网,涵盖最新电影、好看的电影、经典电影、电影推荐、免费电影、高清电影在线观看及海量最新电影图文视频资讯,看电影就上电影网dy.com。
+							</p>
+							<p>
+								 <a class="btn btn-primary btn-large" href="#">查看更多</a>
+							</p>
+						</div>
+					</div>
+				</div>
+	</div>
+	<hr>
+
+	<!-- 主要区域  -->
+	<div class="container">
+			<div class="row clearfix">
+				<div class="col-sm-offset-1 col-md-10">
+					<div class="row">
+						<div class="col-md-4"><img width="300"  src="./public/imgs/xs1.png" /></div>
+						<div class="col-md-8">
+								<div class="list-group">
+										<h2 class="list-group-item active" style="margin-top: 0px;">肖申克的救赎 <span class="btn btn-success" id="fav">收藏</span></h2>
+									   <div class="list-group-item">
+											<h4>导演: 弗兰克·德拉邦特</h4>
+									   </div>
+									   <div class="list-group-item">
+											<h4>编剧: 弗兰克·德拉邦特 / 斯蒂芬·金</h4>
+									   </div>
+									   <div class="list-group-item">
+											<h4>主演: 蒂姆·罗宾斯 / 摩根·弗里曼 / 鲍勃·冈顿 / 威廉姆·赛德勒 / 克兰西·布朗 </h4>
+									   </div>
+									   <div class="list-group-item">
+											<h4>类型: 剧情 / 犯罪</h4>
+									   </div>
+									   <div class="list-group-item">
+											<h4>制片国家/地区: 美国</h4>
+									   </div>
+								</div>
+						</div>
+					</div>
+					
+					<h3 class="text-success">剧情简介</h3>
+					<p class="infos">
+							　20世纪40年代末，小有成就的青年银行家安迪（蒂姆·罗宾斯 Tim Robbins 饰）因涉嫌杀害妻子及她的情人而锒铛入狱。在这座名为肖申克的监狱内，希望似乎虚无缥缈，终身监禁的惩罚无疑注定了安迪接下来灰暗绝望的人生。未过多久，安迪尝试接近囚犯中颇有声望的瑞德（摩根·弗里曼 Morgan Freeman 饰），请求对方帮自己搞来小锤子。以此为契机，二人逐渐熟稔，安迪也仿佛在鱼龙混杂、罪恶横生、黑白混淆的牢狱中找到属于自己的求生之道。他利用自身的专业知识，帮助监狱管理层逃税、洗黑钱，同时凭借与瑞德的交往在犯人中间也渐渐受到礼遇。表面看来，他已如瑞德那样对那堵高墙从憎恨转变为处之泰然，但是对自由的渴望仍促使他朝着心中的希望和目标前进。而关于其罪行的真相，似乎更使这一切朝前推进了一步…… 
+
+					</p>
+					<h3 class="text-danger">精彩短评</h3>
+					<div class="discuzs">
+							<div class="media">
+									<a href="#" class="pull-left"><img src="./public/imgs/avatar.jpg" class="media-object" alt='' /></a>
+								   <div class="media-body">
+									   <h4 class="media-heading">
+											湯行運
+									   </h4>
+									   <p>“这是一部男人必看的电影。”人人都这么说。但单纯从性别区分，就会让这电影变狭隘。《肖申克的救赎》突破了男人电影的局限，通篇几乎充满令人难以置信的温馨基调，而电影里最伟大的主题是“希望”。 当我们无奈地遇到了如同肖申克一般囚禁了心灵自由的那种囹圄，我们是无奈的老布鲁克，灰心的瑞德，还是智慧的安迪？运用智慧，信任希望，并且勇敢面对恐惧心理，去打败它？ 经典的电影之所以经典，因为他们都在做同一件事</p>
+									   
+								   </div>
+							   </div>
+							   <div class="media">
+									<a href="#" class="pull-left"><img src="./public/imgs/avatar.jpg" class="media-object" alt='' /></a>
+								   <div class="media-body">
+									   <h4 class="media-heading">
+										   爱看电影的崽
+									   </h4>
+									   <p>《肖申克的救赎》中的监狱，包括小说和电影，都是以位于缅因州托马斯顿的一座古老监狱为原型。影片中肖申克监狱的拍摄地在俄亥俄州曼斯菲尔德的州立感化院，那一排排的牢房，并不是真正的监狱囚室，而是仿造旧的监狱结构在一个仓库里搭建的布景。如今，感化院内的广场已被改。老布的选择也许是一种极度不安中的宁静。就像一个深潜久了的人，浮上水面呼吸到第一口珍惜的新鲜空气时的庆幸，茫然，慌乱。生命的大半程都镶嵌进了肖申克，安放在了破旧的图书室。一只黑鸟，便是老布的全部感情支撑。他的生命再难有其他彩色联系。虽然假释让他见识到社会的巨大变化，但他明白行色匆匆中，这个世界除了肖申克，除了图书室，没有属于他的一隅。所以，他选择清零，选择放下回忆。</p>
+									   
+								   </div>
+							   </div>
+					</div>
+					<hr>
+					<form>
+						<div class="form-group">
+							<textarea name="content" class="form-control" id="content" cols="30" rows="10"></textarea>
+						</div>
+						<button type="submit" class="btn btn-success btn-lg btn-block">提交评论</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	
+	<hr>
+
+	<!-- 底部分类 -->
+	<div class="container">
+		<div class="row clearfix">
+			<div class="col-md-12 column">
+				<div class="row clearfix">
+					<div class="col-md-3 column">
+						<blockquote>
+							<p>
+								> 专注于电影资源的传播
+
+							</p>
+						</blockquote>
+					</div>
+					<div class="col-md-6 column">
+						<div class="row clearfix">
+							<div class="col-md-4 column">
+								<h4>常见问题</h4>
+								<ul>
+									<li>
+										<a href="javascript:;">如何获取最新的电影资源？</a>
+									</li>
+									<li>
+											<a href="javascript:;">如何购买VIP</a>
+									</li>
+								</ul>
+							</div>
+							<div class="col-md-4 column">
+								<h4>帮助于反馈</h4>
+								<ul>
+									<li>
+										<a href="javascript:;">如何找回密码？</a>
+									</li>
+									<li>
+										<a href="javascript:;">手机号码如何登陆？</a>
+									</li>
+									
+								</ul>
+							</div>
+							<div class="col-md-4 column">
+								<h4>关于</h4>
+								<ul>
+									<li>
+										<a href="javascript:;">发展历程</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 column">
+						<img alt="140x140" src="./public/imgs/qr.jpg" />
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<hr>
+
+	<!-- 顶部版权 -->
+	<div class="container">
+		<div class="row clearfix">
+				<div class="col-md-8 column">
+					<blockquote>
+						<p>
+							CopyRight &copy; 2019 我爱开发网官方网站
+						</p> <small>专注于电影资源的传播  <a href="http://www.beian.miit.gov.cn">粤ICP备xx21114号</a></small>
+					</blockquote>
+				</div>
+				
+		</div>		
+	</div>
+</body>
+<script type='text/javascript'>
+	$("#fav").click(function(){
+		swal ( "标题" ,  "恭喜你，收藏成功!" ,  "success" )
+	});
+	
+	</script>
+</body>
+</html>
